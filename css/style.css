@@ -207,10 +207,6 @@
         color: var(--fondosc);
     }
     
-    .redes {
-        color: #ffffff;
-    }
-    
     .redes i {
         background-color: #464646 !important;
         color: white;
@@ -219,4 +215,13 @@
         text-align: center;
         line-height: 45px;
         border-radius: 100%;
+        border: 1px solid #FFFFFF;
+    }
+    
+    footer {
+        background-color: var(--fondosc);
+    }
+    
+    footer p {
+        color: white;
     }
