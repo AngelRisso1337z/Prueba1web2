@@ -1,0 +1,166 @@
+    @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+    @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700,800');
+    body {
+        font-family: 'Cabin', sans-serif;
+        font-size: 14px;
+        color: #212529;
+    }
+    
+     :root {
+        --azul: #41c1fe;
+        --fondosc: #383838;
+        --fondogris: #f3f3f3;
+        --titulo: #3c3838;
+        --sub: #888585;
+        --txt: #898989
+    }
+    
+    .header-area.sticky {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+    
+    .header-area {
+        background-color: transparent;
+    }
+    
+    .header-area.sticky .navbar-default {
+        background-color: #884bdf;
+    }
+    
+    .btn-light {
+        border-radius: 25px;
+        color: #fff !important;
+    }
+    
+    .btn-light-2 {
+        color: #fff;
+        background-color: var(--azul);
+        border-radius: 25px;
+    }
+    
+    .titulo1 {
+        color: #fff;
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+    }
+    
+    .sub1 {
+        color: var(--sub);
+        text-align: center;
+    }
+    
+    #hero {
+        background-image: url(../img/slider1_slide2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        top: 0;
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 25%;
+    }
+    
+    .botones {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+    }
+    
+    .botones a {
+        font-size: 15px;
+        margin: 60px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+    
+    .btn-homb {
+        background-color: var(--azul);
+        color: #fff;
+        border-radius: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    #products {
+        background-color: var(--fondogris);
+        padding-left: 10%;
+    }
+    
+    #featured {
+        background-color: var(--fondogris);
+    }
+    
+    #featured article {
+        margin-left: 20px;
+    }
+    
+    .btn-muj {
+        background-color: #fff;
+        color: var(--azul);
+        border-radius: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .imagen1 {
+        text-align: center;
+        color: #ffff;
+        background-image: url(../img/men-running.jpg);
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .imagen1 h3 {
+        padding-top: 120px;
+    }
+    
+    .imagen2 {
+        text-align: center;
+        color: #ffff;
+        background-image: url(../img/women-runnig.jpg);
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .imagen2 h3 {
+        padding-top: 120px;
+    }
+    
+    .imagen3 {
+        text-align: center;
+        color: #ffff;
+        background-color: var(--azul);
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .imagen3 h3 {
+        padding-top: 120px;
+    }
+    
+    .produ {
+        text-align: center;
+        background-color: #fff;
+    }
+    
+    #running {
+        background-image: url(../img/bg_action.jpg);
+        background-position: center;
+        padding: 200px;
+    }
+    
+    .producto {}
