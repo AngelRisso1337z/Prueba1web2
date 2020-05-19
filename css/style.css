@@ -207,6 +207,13 @@
         color: var(--fondosc);
     }
     
+    .redes {
+        text-align: center;
+        font-size: 20px;
+        margin-left: 50px;
+        border-bottom: 1px solid #fff;
+    }
+    
     .redes i {
         background-color: #464646 !important;
         color: white;
